@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>LoginGupy</title>
+</head>
+<body>
+    <h1>
+        <img src="dnc.svg" id="dnc">
+        <img src="jumpy.svg" id="jumpy">
+        <div id="bv">
+            Bem vindo ao Jumpy!
+        </div>
+    </h1>
+        <button type="button" onclick="validation()">
+            <div id="esc">Cadastrar</div>
+        </button>
+        <p id="sucess"></p>
+        <p id="allError"></p>
+        <form class="form" method="post" id="form">  
+            <div>
+                <label for="username" style="position: absolute;
+                width: 161px;
+                height: 23px;
+                left: 509px;
+                top: 281px;               
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 23px;             
+                color: #FFFFFF;">Nome Completo</label>
+                <input type="text" placeholder="Nome completo" id="username">
+                <span id="erro1"></span>
+            </div>         
+            <div >
+                <label for="email" style="position: absolute;
+                width: 51px;
+                height: 21px;
+                left: 511px;
+                top: 384px;               
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;               
+                color: #FFFFFF;">Email:</label>
+                <input type="email" placeholder="Email@email.com" id="email">
+                <small id="erro2"></small>
+            </div>
+            <div >
+                <label for="telefone" style="position: absolute;
+                width: 79px;
+                height: 21px;
+                left: 511px;
+                top: 486px;              
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;
+                color: #FFFFFF;">Telefone:</label>
+                <input type="tel" placeholder="(00) 00000-0000" id="telefone">
+                <small id="erro3"></small>
+        
+            </div>
+            <div >
+                <label for="cpf" style="position: absolute;
+                width: 38px;
+                height: 21px;
+                left: 509px;
+                top: 588px;               
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;               
+                color: rgba(255, 255, 255, 0.9);">CPF:</label>
+                <input type="number" placeholder="CPF" id="cpf">
+                <small id="erro4"></small>
+            </div>
+            <div >
+                <label for="senha" style="position: absolute;
+                width: 58px;
+                height: 21px;
+                left: 509px;
+                top: 692px;              
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;               
+                color: rgba(255, 255, 255, 0.9);">Senha:</label>
+                <input type="password" placeholder="*******************" id="senha">
+                <small id="erro5"></small>
+            </div>           
+            </form>
+</body>
+</html> 

@@ -1,0 +1,262 @@
+body{
+    background-color: #2D2D2D;
+}h1 #dnc{
+    position: absolute;
+    width: 164px;
+    height: 81.85px;
+    left: 55px;
+    top: 42px;
+
+}h1 #jumpy{
+    position: absolute;
+    width: 311px;
+    height: 74px;
+    left: 598px;
+    top: 103px;
+}#bv{
+    position: absolute;
+    width: 312px;
+    height: 34px;
+    left: 589px;
+    top: 204px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+
+    color: #FFFFFF;
+}#username{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 13px;
+    gap: 8px;
+
+    position: absolute;
+    width: 524px;
+    height: 52px;
+    left: 509px;
+    top: 312px;
+
+    background: rgba(255, 255, 255, 0.9);
+
+    border: 1px solid #181818;
+    border-radius: 10px;
+}#email{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 13px;
+    gap: 8px;
+
+    position: absolute;
+    width: 524px;
+    height: 52px;
+    left: 511px;
+    top: 414px;
+
+    background: rgba(255, 255, 255, 0.9);
+
+    border: 1px solid #181818;
+    border-radius: 10px;
+}#telefone{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 13px;
+    gap: 8px;
+
+    position: absolute;
+    width: 524px;
+    height: 52px;
+    left: 511px;
+    top: 516px;
+
+    background: rgba(255, 255, 255, 0.9);
+
+    border: 1px solid #181818;
+    border-radius: 10px;
+}#cpf{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 13px;
+    gap: 8px;
+
+    position: absolute;
+    width: 524px;
+    height: 52px;
+    left: 509px;
+    top: 618px;
+
+    background: rgba(255, 255, 255, 0.9);
+    
+    border: 1px solid #181818;
+    border-radius: 10px;
+}#senha{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11px 13px;
+    gap: 8px;
+
+    position: absolute;
+    width: 524px;
+    height: 52px;
+    left: 509px;
+    top: 720px;
+
+
+    background: rgba(255, 255, 255, 0.9);
+    
+    border: 1px solid #181818;
+    border-radius: 10px;
+}button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 36px;
+    gap: 8px;
+
+    position: absolute;
+    width: 524px;
+    height: 48px;
+    left: 509px;
+    top: 804px;
+
+    background: #0C70F2;
+    border-radius: 6px;
+    border: none;
+}#esc{
+    width: 87px;
+    height: 21px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}#erro1{
+    position: absolute;
+    width: 114px;
+    height: 14px;
+    left: 919px;
+    top: 364px;
+    
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #E73550;
+    
+}#erro2{
+    position: absolute;
+    width: 114px;
+    height: 14px;
+    left: 919px;
+    top: 466px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #E73550;
+    visibility: visible;
+}#erro3{
+    position: absolute;
+    width: 114px;
+    height: 14px;
+    left: 919px;
+    top:568px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #E73550;
+    visibility: visible;
+}#erro4{
+    position: absolute;
+    width: 114px;
+    height: 14px;
+    left: 919px;
+    top: 670px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #E73550;
+    visibility: visible;
+}#erro5{
+    position: absolute;
+    width: 114px;
+    height: 14px;
+    left: 919px;
+    top: 772px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #E73550;
+    visibility: visible;
+}#sucess{
+    position: absolute;
+    width: 50px;
+    height: 14px;
+    left: 509px;
+    top: 861px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #0F7B0F;
+}#allError{
+    position: absolute;
+    width: 207px;
+    height: 14px;
+    left: 509px;
+    top: 850px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #E73550;
+}
